@@ -1,4 +1,4 @@
 sudo /etc/init.d/nginx start
-git clone https://github.com/0lekciy4/my-web-project-for-stepik /home/box/web
+git clone https://github.com/0lekciy4/my-web-project-for-stepik /home/box/
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
 sudo /etc/init.d/nginx restart
