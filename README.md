@@ -1,2 +1,2 @@
-# my web project for stepik
+# My web project. Stepik.
 Мой проект по прохождению онлайн курса WEB-технологии на степике.
