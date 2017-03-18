@@ -1,4 +1,2 @@
-mv web/ /home/box/
-sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
-sudo /etc/init.d/nginx start
-sudo /etc/init.d/nginx restart
+sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/test.conf
+sudo service nginx restart
