@@ -1,1 +1,1 @@
-# my-web-project-for-stepik
+# my web project for stepik
