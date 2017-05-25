@@ -1,4 +1,4 @@
-def wsgi_application(environ, start_response):
+def app(environ, start_response):
     status = '200 OK'
     headers = [
         ('Conten-Type', 'text/plain')
