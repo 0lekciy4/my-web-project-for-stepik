@@ -3,6 +3,6 @@ def app(environ, start_response):
     headers = [
         ('Conten-Type', 'text/plain')
     ]
-    body = '\n'.join(environ('QUERY_STRING').split('&'))
+    body = '\n'.join(environ['QUERY_STRING'].split('&'))
     start_response(status, headers)
-    return [ body ]
+    return [bytes(body, 'ascii')]
